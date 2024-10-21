@@ -11,6 +11,7 @@ public class KillPlayer : MonoBehaviour
             //Debug.Log("Player into Killzone");
             //other.gameObject.GetComponent<CharacterController>().Move(Vector3.up - other.transform.position);
             LevelManager.instance.ReSpawn();
+            
         }
     }
 
