@@ -1,0 +1,698 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.43f1 (85497d293fa1) revision 8735101'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'zh' Physical Memory: 32454 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/user/Desktop/FlameGuy
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+2176
+Successfully changed project path to: C:/Users/user/Desktop/FlameGuy
+C:/Users/user/Desktop/FlameGuy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22400]  Target information:
+
+Player connection [22400]  * "[IP] 210.62.225.198 [Port] 0 [Flags] 2 [Guid] 2299182500 [EditorId] 2299182500 [Version] 1048832 [Id] WindowsEditor(7,SYB114-48) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22400] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/FlameGuy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003380 seconds.
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 110 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.267 seconds
+Domain Reload Profiling: 460ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (58ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (68ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (267ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (153ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.397 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.373 seconds
+Domain Reload Profiling: 769ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (348.1 KB). Loaded Objects now: 5568.
+Memory consumption went from 202.5 MB to 202.2 MB.
+Total: 3.092100 ms (FindLiveObjects: 0.426500 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.383700 ms  DeleteObjects: 0.162400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6623.251241 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockEnd.fbx
+  artifactKey: Guid(f6d8667b1fa370946a2d7ac3bbf288c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockEnd.fbx using Guid(f6d8667b1fa370946a2d7ac3bbf288c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2ded006429fdb65d1d3109663ec4bd83') in 0.198393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.294949 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockHexagonLow.fbx
+  artifactKey: Guid(171e78f543462c14f8bc7ee024273d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockHexagonLow.fbx using Guid(171e78f543462c14f8bc7ee024273d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cfc5b214ede36af05795fb3565cad943') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.306882 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockLevel.fbx
+  artifactKey: Guid(ff3e64aeae5145041a10dede90f9c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockLevel.fbx using Guid(ff3e64aeae5145041a10dede90f9c8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8593adad81bd074c239bb15a23b9f474') in 0.011803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.031966 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockMoving.fbx
+  artifactKey: Guid(dd758638d3ee0a44f8cd803f5b0e474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockMoving.fbx using Guid(dd758638d3ee0a44f8cd803f5b0e474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '253a348bc6c134364c417b90c9c25108') in 0.052209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.278485 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockMovingRed.fbx
+  artifactKey: Guid(dfb69c642651aa94987c518e65d24e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockMovingRed.fbx using Guid(dfb69c642651aa94987c518e65d24e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e7d972d6c73e8a56f52fc6232357d086') in 0.024695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.034082 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockQuarter.fbx
+  artifactKey: Guid(4643a7bdd41913d4d92d7153c5cc0468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockQuarter.fbx using Guid(4643a7bdd41913d4d92d7153c5cc0468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '069ac6cbb1842d6658dc123b77b3cb13') in 0.010564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.444548 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockRounded.fbx
+  artifactKey: Guid(661299d76ef7a7647a23a0fc02f05e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockRounded.fbx using Guid(661299d76ef7a7647a23a0fc02f05e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e6d3e74a7bdf97532ff34ebe9e156040') in 0.013946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.009620 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockRoundedLarge.fbx
+  artifactKey: Guid(45d786a459526414dab29837fc76e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockRoundedLarge.fbx using Guid(45d786a459526414dab29837fc76e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7b078f1c7c42c5f086bd1d5bae9e2b7a') in 0.011991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.407873 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockRoundedLow.fbx
+  artifactKey: Guid(825bbf611bd4b9b45bb6959e8174d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockRoundedLow.fbx using Guid(825bbf611bd4b9b45bb6959e8174d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7842a0bca797480dfab37d6cc8a4ee63') in 0.012636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.025848 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/blockSlope.fbx
+  artifactKey: Guid(d38e8eca42f54eb4c94d8089e4ab4f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/blockSlope.fbx using Guid(d38e8eca42f54eb4c94d8089e4ab4f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9ce9400423c7c75b4efd9e1a18b77575') in 0.013769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.278944 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/bridge.fbx
+  artifactKey: Guid(d1fd80e41884c5344a320e07a88ae5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/bridge.fbx using Guid(d1fd80e41884c5344a320e07a88ae5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '077102b9a06965f5010fbbcfd6743726') in 0.019986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.028874 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/bridgeRamp.fbx
+  artifactKey: Guid(27dc15087b65a364c8e35ffd79ea5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/bridgeRamp.fbx using Guid(27dc15087b65a364c8e35ffd79ea5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '11db97d71fb56fe797381d948251f5e9') in 0.016198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.262027 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/buttonRound.fbx
+  artifactKey: Guid(bbecbd2450fe8344a9c53b426277b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/buttonRound.fbx using Guid(bbecbd2450fe8344a9c53b426277b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b17aa80a8727e9655a4652d078fc234a') in 0.067062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.232750 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/coinBronze.fbx
+  artifactKey: Guid(c62b218a47e6d8d4f9e7313fc22026be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/coinBronze.fbx using Guid(c62b218a47e6d8d4f9e7313fc22026be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '354397403f5cedfa14c9e5a883b2f3ba') in 0.021986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.013813 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/coinSilver.fbx
+  artifactKey: Guid(88c94e3f2849aca40809a0a21c80f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/coinSilver.fbx using Guid(88c94e3f2849aca40809a0a21c80f1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ca56a0ac3ded7daf718cb64e155ebd0b') in 0.022284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.277753 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/crate.fbx
+  artifactKey: Guid(ea4fe7a0adaccb8459506c2464680982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/crate.fbx using Guid(ea4fe7a0adaccb8459506c2464680982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3717dcb00a334a146829cca6f187e1fb') in 0.017757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.385724 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/crateItemStrong.fbx
+  artifactKey: Guid(e3cd872120929c94bad23826a3861eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/crateItemStrong.fbx using Guid(e3cd872120929c94bad23826a3861eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ac6f9bce8827c9e880b2735ff6b9f411') in 0.023027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.008865 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/crateStrong.fbx
+  artifactKey: Guid(b2e26f7a95345a94090c43b943f96380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/crateStrong.fbx using Guid(b2e26f7a95345a94090c43b943f96380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '073a111297cc734aa45141c2d5a8da9b') in 0.027562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.537441 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/doorOpen.fbx
+  artifactKey: Guid(eee132f4b8f35f04c90cec4ee99583d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/doorOpen.fbx using Guid(eee132f4b8f35f04c90cec4ee99583d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '670775129af77ce66955f3a032ba6259') in 0.022606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.015501 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceBroken.fbx
+  artifactKey: Guid(bae5655eaafdc0b46a70608969227615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceBroken.fbx using Guid(bae5655eaafdc0b46a70608969227615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'caddb09c0fc4a71a30d2e715c18bbe91') in 0.017707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.366999 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceCornerCurved.fbx
+  artifactKey: Guid(264b7baadacf6724c9416ddb51d5c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceCornerCurved.fbx using Guid(264b7baadacf6724c9416ddb51d5c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2cd42e385643a4bb82f63ffed410640e') in 0.020104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.025160 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceLowBroken.fbx
+  artifactKey: Guid(a9e191c37ae4df14aa07f0fc45461489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceLowBroken.fbx using Guid(a9e191c37ae4df14aa07f0fc45461489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ea91381d6173b98cd736891392a74190') in 0.019168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.508767 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceLowCorner.fbx
+  artifactKey: Guid(b0bba24ea7efd0845af43024399d83c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceLowCorner.fbx using Guid(b0bba24ea7efd0845af43024399d83c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ee5491d7aa30f321f982aae8c9e8ed7f') in 0.016367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008302 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceLowCornerCurved.fbx
+  artifactKey: Guid(2f38c662148799e48814a1551bcde26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/fenceLowCornerCurved.fbx using Guid(2f38c662148799e48814a1551bcde26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'be88b2a610871b07dd2bd8abcdd7322d') in 0.015106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.304104 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/flag.fbx
+  artifactKey: Guid(d42cff718445bc440bd6d47e1d387e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/flag.fbx using Guid(d42cff718445bc440bd6d47e1d387e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0f6a74e7074e13e2b2e9396763ed0d13') in 0.016803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.035030 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/flowersLow.fbx
+  artifactKey: Guid(7a13ca14f04bbec4495436809db810c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/flowersLow.fbx using Guid(7a13ca14f04bbec4495436809db810c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e429b7afb1fb6105fc3f55446f0feceb') in 0.016324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.006716 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/heart.fbx
+  artifactKey: Guid(0d9d837dcc3f7a741acf96d63d1df2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/heart.fbx using Guid(0d9d837dcc3f7a741acf96d63d1df2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '23eb1cc10b96121b6b9b9f47c5fbfb32') in 0.017222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.277444 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/hedge.fbx
+  artifactKey: Guid(0f31ab7a4d15cf24799eecb5ce934c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/hedge.fbx using Guid(0f31ab7a4d15cf24799eecb5ce934c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1b0601174c86c89d05bcbbefeab400ba') in 0.010741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/hedgeCorner.fbx
+  artifactKey: Guid(03c2ae6bce7870347864c089c9bbdbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/hedgeCorner.fbx using Guid(03c2ae6bce7870347864c089c9bbdbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '11fba18669d17fbf60153dd0e5c952cf') in 0.010639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.021867 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/jewel.fbx
+  artifactKey: Guid(6ad4f4b0b087d594db54b0e07d7c9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/jewel.fbx using Guid(6ad4f4b0b087d594db54b0e07d7c9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'da8e862115e7f61acf567f7767b9fedb') in 0.018262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.302452 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/key.fbx
+  artifactKey: Guid(cf23186f528ad674d86b6c99b2e7e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/key.fbx using Guid(cf23186f528ad674d86b6c99b2e7e06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '991f4a9dd78f3df8b653aa1a9c780884') in 0.020676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.037801 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/ladderBroken.fbx
+  artifactKey: Guid(850ff0e7c23d25d42ad60fe1eb64a88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/ladderBroken.fbx using Guid(850ff0e7c23d25d42ad60fe1eb64a88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '510255e195542f4786ee8a3e78d410df') in 0.021601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.553974 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/ladderLong.fbx
+  artifactKey: Guid(c89041196804be04b91f3f1cb483ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/ladderLong.fbx using Guid(c89041196804be04b91f3f1cb483ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'edf4403500040d66eb763afbe74ed391') in 0.154963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.461537 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/plant.fbx
+  artifactKey: Guid(983b8d94a3c74054fb4350e9a94d2f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/plant.fbx using Guid(983b8d94a3c74054fb4350e9a94d2f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '57d5ec0b67121a56bfa80c259268fe5f') in 0.011966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005571 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/platform.fbx
+  artifactKey: Guid(e46fc4fa15ccb6745823db9212f7930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/platform.fbx using Guid(e46fc4fa15ccb6745823db9212f7930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '59fe39df048447df2e6f3e7eb570ac6d') in 0.014909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.030146 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/rocks.fbx
+  artifactKey: Guid(5e7be4f00e8e6fd4eae6310d7b8c5190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/rocks.fbx using Guid(5e7be4f00e8e6fd4eae6310d7b8c5190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c62377e3d63097e072ff31667a937428') in 0.014590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.289439 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/saw.fbx
+  artifactKey: Guid(7e4ab9c60a1afe94ab825095df58b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/saw.fbx using Guid(7e4ab9c60a1afe94ab825095df58b3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '74994195307f5335e7387b97a507361e') in 0.021667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.013032 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/spikes.fbx
+  artifactKey: Guid(1f8d5b405f2fa3240819aebd44441424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/spikes.fbx using Guid(1f8d5b405f2fa3240819aebd44441424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '476ae9c59df90ab9fe02e7d6dd69fd7d') in 0.018528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.324086 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/spikesHidden.fbx
+  artifactKey: Guid(c0d21f15bf4048448a3d0358ffe6f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/spikesHidden.fbx using Guid(c0d21f15bf4048448a3d0358ffe6f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '59f0b78ea7cbe0630f5a384d0ed60100') in 0.018607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005760 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/spikesLarge.fbx
+  artifactKey: Guid(55e4ba155b7f9214198aa0c35fb28055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/spikesLarge.fbx using Guid(55e4ba155b7f9214198aa0c35fb28055) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '10f095098dbd121f66dc336ccb1e8ad0') in 0.020080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.016997 seconds.
+  path: Assets/Platformer Assets/Models/Kenney Platformer Assets/treePine.fbx
+  artifactKey: Guid(b10fa4585eba3f54787941e3c57e2576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Kenney Platformer Assets/treePine.fbx using Guid(b10fa4585eba3f54787941e3c57e2576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7adb055b26cf10c25e7be8fc13de3436') in 0.011584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.186466 seconds.
+  path: Assets/Platformer Assets/Models/Rocks/Rock 1.fbx
+  artifactKey: Guid(787ee1d95a77e7e469aadd6d2c6e7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platformer Assets/Models/Rocks/Rock 1.fbx using Guid(787ee1d95a77e7e469aadd6d2c6e7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8099a0108615cde8f208f6c0e824eb17') in 0.187121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
